@@ -1,9 +1,32 @@
-h1 {
-  color: cornflowerblue;
-  font-size: 50px;
+/* Last rule and specificity  */
+
+/* least amount of specificity */
+* {
+  color: green;
 }
 
-h2 {
-  color: chocolate;
-  font-size: 25px;
+.special {
+  color: green;
+}
+
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+#heading {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+
+/* combine selectors */
+
+.container p {
+  color: green;
 }
