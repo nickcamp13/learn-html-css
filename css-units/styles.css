@@ -1,0 +1,42 @@
+/*
+PIXELS - abs values, one dot on the screen
+FONT SIZE - size of the font
+WIDTH - width of an element
+HEIGHT - height of an element 
+*/
+
+/*
+% - PERCENT, Relative unit value , depends on its parent 
+*/
+
+/*
+em - relative, depends on parent
+1em = 16px default browser style
+1em = base value (16px) * number (1) = 16px
+2em = base value (16px) * number (2) = 32px
+etc
+*/
+
+/* .inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+
+.outer {
+  width: 200px;
+  height: 200px;
+  background: blue;
+} */
+
+.absolute {
+  font-size: 32px;
+}
+
+.relative {
+  font-size: 2em;
+}
+
+div {
+  font-size: 10px;
+}
