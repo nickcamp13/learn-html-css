@@ -1,0 +1,5 @@
+/* Border Hack */
+
+* {
+  border: 2px solid red;
+}
