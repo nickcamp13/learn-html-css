@@ -7,18 +7,17 @@ div {
 .big-img {
   background: url('./big.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .small-img { /* if the div gets bigger and the image is not big enough to fit the div, the image repeats */
   background: url(./small.jpg);
-  background-repeat: repeat;
   background-repeat: no-repeat;
-  background-repeat: repeat-x;
-  background-repeat: repeat-y;
-  background-repeat: space;
-  background-repeat: round;
+  background-size: cover;
 }
 
 .folder-img {
   background: url(./images/folder.jpg);
+  color: black;
+  background-size: contain;
 }
